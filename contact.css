@@ -55,7 +55,7 @@ header
 .logo_accueil
 {
     display: flex;
-    flex-direction: row;
+    
 }
 
 .logo img
