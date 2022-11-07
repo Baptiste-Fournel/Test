@@ -1,0 +1,138 @@
+@media all and (max-width:768px)
+{
+    .Page
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }   
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }   
+    nav a
+    {
+        font-size: 18px;
+    }    
+    nav a:hover
+    {
+        border-bottom: 0px;
+    }
+    .banniere_audiotech
+    {
+        display: none;
+    }
+    .exemple_casque
+    {
+        max-width: 100%;
+    }
+}
+
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black
+}
+
+.Page
+{
+    margin: auto;
+    width: 80%;
+}
+
+section h1, nav a
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("fondnavbar.jpg");
+}
+
+.logo_accueil
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img
+{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -4px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 21px;
+    color: black;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.banniere_audiotech
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.banniere_audiotech img
+{
+    width: 100%;
+    height: 150px;
+}
+
+.exemple_casque
+{
+    float: right;
+    height: 250px;
+}
+
+html, body
+{
+    background-image: url(Fondpageaccueil.png);
+}
+
+article
+{
+    font-size: 20px;
+}
+
+.boutton
+{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
+
